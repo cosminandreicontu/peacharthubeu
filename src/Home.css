@@ -1,0 +1,271 @@
+.web-container {
+    
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/src/assests/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.layout h2 {
+    /* position: absolute; */
+    padding: 70px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.top h2 {
+    background-image: url(/src/assests/banner-orange.png);
+    font-weight: 500;
+    font-size: 46px;
+    background-position: center;
+}
+
+.top span {
+    margin-top: 20px;
+    font-weight: 700;
+    color: #68b350;
+}
+
+.bottom {
+    height: 300px;
+    margin-top: 40px;
+}
+
+.header {
+    padding: 10px 70px;
+}
+
+.header .logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    padding: 10px 0;
+    margin-top: 40px;
+    background-image: url(/src/assests/tech411.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.content img {
+    padding-top: 80px;
+}
+
+.snd-content {
+    height: 100px;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    background-image: url(/src/assests/tech412.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+.multimedia .title h2 {
+    padding: 60px;
+    width: 100%;
+    color: #545f6a;
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+#nav {
+    background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #545f6a !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    padding: 20px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff9800 !important;
+}
+
+.btn-primary {
+    background-color: rgb(255, 152, 0) !important;
+    border-color: rgb(255, 152, 0) !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video .PlayerDiv {
+    width: 35%;
+    padding: 30px 0;
+}
+
+.video .PlayerDiv h3 {
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+}
+
+.btn-outline-light {
+    padding: 10px 20px !important;
+    font-size: 18px !important;
+    border-width: 2px !important;
+    font-weight: 600 !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .top h2 {
+        font-size: 36px;
+    }
+    .layout h2 {
+        padding: 50px;
+    }
+    .content img {
+        width: 720px;
+    }
+    .multimedia .title h2 {
+        font-size: 32px;
+    }
+    
+    .video .PlayerDiv h3 {
+        font-size: 24px !important;
+    }
+
+    .bottom {
+        height: 300px;
+        margin-top: 30px;
+    }
+    .bottom h2 {
+        font-size: 36px;
+    }.btn-outline-light {
+        padding: 10px 20px !important;
+        font-size: 18px !important;
+        border-width: 2px !important;
+        font-weight: 600 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top h2 {
+        font-size: 28px;
+    }
+    .layout h2 {
+        padding: 40px;
+    }
+    .content {
+        margin-top: 20px;
+        background-size: contain;
+    }
+    .snd-content {
+        background-size: contain;
+    }
+    .content img {
+        width: 550px;
+    }
+    .multimedia .title h2 {
+        font-size: 24px;
+        padding: 40px;
+    }
+
+    .video .PlayerDiv {
+        width: 70%;
+        padding: 30px 0;
+    }
+    
+    .video .PlayerDiv h3 {
+        font-size: 24px !important;
+    }
+
+    .bottom {
+        height: 200px;
+        margin-top: 30px;
+    }
+    .bottom h2 {
+        font-size: 28px;
+        /* padding: 20px; */
+    
+    }
+    .btn-outline-light {
+        margin-top: 0;
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        border-width: 2px !important;
+        font-weight: 500 !important;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .top h2 {
+        font-size: 24px;
+    }
+    .layout h2 {
+        padding: 30px;
+    }
+    .content {
+        margin-top: 20px;
+    }
+    .content img {
+        width: 350px;
+    }
+    .multimedia .title h2 {
+        font-size: 24px;
+        padding: 40px;
+    }
+
+    .video .PlayerDiv {
+        width: 70%;
+        padding: 20px 0;
+    }
+    
+    .video .PlayerDiv h3 {
+        font-size: 20px !important;
+    }
+
+    .bottom {
+        height: 200px;
+        margin-top: 30px;
+    }
+    .bottom h2 {
+        font-size: 24px;
+        /* padding: 20px; */
+    
+    }
+    .btn-outline-light {
+        /* margin-top: 10px; */
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        border-width: 2px !important;
+        font-weight: 500 !important;
+    }
+}
